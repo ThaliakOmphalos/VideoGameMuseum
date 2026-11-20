@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Hall | A Video Game Museum</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">Pixel<span>Hall</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="game1.html">Final Fantasy XIV</a>
+        <a href="game2.html">Wuthering Waves</a>
+        <a href="game3.html">Luxor</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Permanent Collection</p>
+      <h1>Welcome to Pixel Hall</h1>
+      <p class="lead">A small museum dedicated to three of my favorite video games. The collection includes a sprawling
+        fantasy MMO, a fast open-world action RPG, and a classic marble shooter set in ancient Egypt. Pick an exhibit to
+        step inside.</p>
+    </section>
+
+    <section class="gallery" aria-label="Exhibits">
+      <!-- Exhibit 1 -->
+      <a class="card" href="game1.html" style="--card-accent:#6fa8ff">
+        <svg viewBox="0 0 320 180" role="img" aria-label="A glowing blue crystal floating above mountains at night">
+          <rect width="320" height="180" fill="#101a3a" />
+          <g fill="#ffffff" opacity=".7">
+            <circle cx="30" cy="25" r="1.5" />
+            <circle cx="90" cy="45" r="1" />
+            <circle cx="270" cy="30" r="1.5" />
+            <circle cx="230" cy="60" r="1" />
+            <circle cx="60" cy="70" r="1" />
+          </g>
+          <polygon points="0,180 70,100 130,150 190,90 260,140 320,110 320,180" fill="#1c2a55" />
+          <polygon points="160,20 185,65 160,120 135,65" fill="#6fa8ff" />
+          <polygon points="160,20 185,65 160,65" fill="#a9ccff" />
+          <polygon points="135,65 160,65 160,120" fill="#3f78d6" />
+          <ellipse cx="160" cy="140" rx="40" ry="6" fill="#6fa8ff" opacity=".3" />
+        </svg>
+        <div class="card-body">
+          <span class="plaque">Exhibit 01 · 2013</span>
+          <h2>Final Fantasy XIV</h2>
+          <p>An online fantasy world that came back from the brink and grew into one of the most loved MMOs.</p>
+          <span class="card-cta">Enter exhibit →</span>
+        </div>
+      </a>
+
+      <!-- Exhibit 2 -->
+      <a class="card" href="game2.html" style="--card-accent:#f2c26b">
+        <svg viewBox="0 0 320 180" role="img"
+          aria-label="Sound waves rippling across a sea at dusk beside ruined towers">
+          <rect width="320" height="180" fill="#2a2140" />
+          <circle cx="240" cy="70" r="26" fill="#f2c26b" opacity=".85" />
+          <g fill="#3b3157">
+            <rect x="30" y="60" width="18" height="70" />
+            <rect x="56" y="80" width="14" height="50" />
+            <rect x="80" y="45" width="12" height="85" />
+          </g>
+          <rect y="125" width="320" height="55" fill="#1b2f4a" />
+          <g fill="none" stroke="#f2c26b" stroke-width="2.5" opacity=".9">
+            <path d="M0 140 Q40 130 80 140 T160 140 T240 140 T320 140" />
+            <path d="M0 155 Q40 145 80 155 T160 155 T240 155 T320 155" opacity=".6" />
+            <path d="M0 170 Q40 160 80 170 T160 170 T240 170 T320 170" opacity=".35" />
+          </g>
+        </svg>
+        <div class="card-body">
+          <span class="plaque">Exhibit 02 · 2024</span>
+          <h2>Wuthering Waves</h2>
+          <p>An open-world action RPG built around fast combat in a world rebuilding after catastrophe.</p>
+          <span class="card-cta">Enter exhibit →</span>
+        </div>
+      </a>
+
+      <!-- Exhibit 3 -->
+      <a class="card" href="game3.html" style="--card-accent:#ffcc33">
+        <svg viewBox="0 0 320 180" role="img"
+          aria-label="A chain of colored spheres rolling along a path toward a pyramid">
+          <rect width="320" height="180" fill="#d9a85b" />
+          <polygon points="250,40 300,110 200,110" fill="#b7843d" />
+          <polygon points="250,40 300,110 250,110" fill="#9c6e30" />
+          <path d="M20 40 H180 Q210 40 210 70 Q210 100 240 100" fill="none" stroke="#a9772f" stroke-width="18"
+            stroke-linecap="round" />
+          <g>
+            <circle cx="40" cy="40" r="8" fill="#e74c3c" />
+            <circle cx="58" cy="40" r="8" fill="#e74c3c" />
+            <circle cx="76" cy="40" r="8" fill="#3498db" />
+            <circle cx="94" cy="40" r="8" fill="#2ecc71" />
+            <circle cx="112" cy="40" r="8" fill="#2ecc71" />
+            <circle cx="130" cy="40" r="8" fill="#f1c40f" />
+            <circle cx="148" cy="40" r="8" fill="#9b59b6" />
+            <circle cx="166" cy="40" r="8" fill="#3498db" />
+          </g>
+          <polygon points="140,165 180,165 172,150 148,150" fill="#2c3e50" />
+          <circle cx="160" cy="146" r="7" fill="#2ecc71" />
+        </svg>
+        <div class="card-body">
+          <span class="plaque">Exhibit 03 · 2005</span>
+          <h2>Luxor</h2>
+          <p>A marble shooter where you stop colored spheres before they reach the pyramid.</p>
+          <span class="card-cta">Enter exhibit →</span>
+        </div>
+      </a>
+    </section>
+
+    <section class="info" aria-label="Visitor information">
+      <div><strong>Admission</strong>Free, always. No subscription required.</div>
+      <div><strong>Hours</strong>Open whenever your browser is.</div>
+      <div><strong>Exhibits</strong>3 games spanning nearly 20 years of play.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">Final Lab Set 2</div>
+  </footer>
+</body>
+
+</html>
